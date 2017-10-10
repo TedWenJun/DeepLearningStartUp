@@ -8,7 +8,7 @@ def getChainWords(filename, topN):
     Input Chinese text file , return topN counted chain Words
 
     filename: file path
-    topN: the number of top valus return
+    topN: how much values will be return
     '''
     # Read and Rearrange File
     sourceFile = open(filename,"r",encoding="utf-8")
